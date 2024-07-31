@@ -1,0 +1,136 @@
+<!-- 3rd -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="Task3.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="Book">Book Library</h1>
+        <div class="Search">
+            <label for="Search">Search</label>
+            <input type="text" id="Search" name="Search" class="input-box" required>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="BookList" id="AddBook" style="display: none;">
+            <input type="text" id="bookName" placeholder="Book Name">
+            <div id="bookNameError" class="error"></div>
+            <input type="text" id="authorName" placeholder="Author Name">
+            <div id="authorNameError" class="error"></div>
+            <input type="date" id="publishDate">
+            <div id="publishDateError" class="error"></div>
+            <button id="addBooksButton">Add Book</button>
+        </div>
+        <button id="addBookToListButton" type="button" onclick="showAddBookForm()">Add Book To List</button>
+        <div id="bookList"></div>
+    </div>
+
+        <!-- Confirm Edit Modal -->
+<div id="confirmEditModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('confirmEditModal')">&times;</span>
+        <p>Are you sure you want to save changes?</p>
+        <button onclick="confirmEdit()">Yes</button>
+        <button onclick="closeModal('confirmEditModal')">No</button>
+    </div>
+</div>
+
+<!-- Confirm Delete Modal -->
+<div id="confirmDeleteModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('confirmDeleteModal')">&times;</span>
+        <p>Are you sure you want to delete this book?</p>
+        <button onclick="confirmDelete()">Yes</button>
+        <button onclick="closeModal('confirmDeleteModal')">No</button>
+    </div>
+</div>
+
+    <script src="Task3.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- 1st -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="Task3.css">
+    
+</head>
+<body>
+    <div class="container">
+      <h1 class="Book">Book Library</h1>
+         <div class="Search">
+           <label for="Search">Search</label>
+           <input type="text" id="Search" name="Search" class="input-box" required >
+         </div>
+            <br>
+            <br>
+            <br>
+            <div class="BookList" id="AddBook" style="display: none;">
+            <input type="text" id="bookName" placeholder="Book Name">
+            <input type="text" id="authorName" placeholder="Author Name">
+            <input type="date" id="publishDate">
+            <button id="addBooksButton" onclick="document.getElementById('AddBook').style.display='none'">Add Book</button>
+        </div>
+        <button id="button" type="button" onclick="document.getElementById('AddBook').style.display='block' ">Add Book To List</button>
+       <div id="bookList"></div>
+    </div>
+            <script src="Task3.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+<!-- 2nd -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="Task3.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="Book">Book Library</h1>
+        <div class="Search">
+            <label for="Search">Search</label>
+            <input type="text" id="Search" name="Search" class="input-box" required>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="BookList" id="AddBook" style="display: none;">
+            <input type="text" id="bookName" placeholder="Book Name">
+            <input type="text" id="authorName" placeholder="Author Name">
+            <input type="date" id="publishDate">
+            <button id="addBooksButton" onclick="document.getElementById('AddBook').style.display='none'">Add Book</button>
+        </div>
+        <button id="button" type="button" onclick="document.getElementById('AddBook').style.display='block'">Add Book To List</button>
+        <div id="bookList"></div>
+    </div>
+    <script src="Task3.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+

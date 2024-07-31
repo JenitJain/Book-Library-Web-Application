@@ -1,0 +1,35 @@
+Here is a description for GitHub based on the code and tasks outlined above:
+
+---
+
+## Book Library Web Application
+
+This project is a modern and minimalist Book Library web application built using HTML, CSS, and JavaScript. The application allows users to add, edit, delete, and search for books in a user-friendly interface.
+
+### Features
+
+1. **Add Book**: Users can add books by providing the book's name, author's name, and published date. The form includes validation to ensure all fields are filled correctly, with specific error messages displayed below the respective fields when left empty.
+
+2. **Edit Book**: Each book entry has an "Edit" button that allows users to update the book's details. When editing, the "Add Book" button changes to "Update Change," and the input fields are auto-filled with the selected book's information. The "Add Book To List" button is disabled during editing to prevent adding new books simultaneously.
+
+3. **Delete Book**: A "Delete" button is provided alongside the "Edit" button for each book entry, enabling users to remove books from the list. A confirmation modal prompts the user to confirm the deletion.
+
+4. **Search Functionality**: Users can search for books by their name, author's name, or published date. The list updates dynamically as the user types in the search bar.
+
+5. **Validation and Alerts**: The application includes custom validation messages displayed below the input fields, styled in red for easy identification. Users cannot enter future dates for the published date field, ensuring the data's accuracy.
+
+6. **Modern UI Design**: The interface features a modern and minimalist design with a monochrome palette (black, white, gray) and a single accent color (blue). The design prioritizes readability and ease of use, with a clean layout and intuitive navigation.
+
+### Technologies Used
+
+- **HTML**: For structuring the web page.
+- **CSS**: For styling the application, including the modern design elements and responsive layout.
+- **JavaScript**: For handling the core functionalities, including adding, editing, deleting books, and managing the search feature.
+
+### Setup and Usage
+
+To run the project, clone the repository and open the `index.html` file in your browser. The CSS and JavaScript files (`styles.css` and `scripts.js`) are linked in the HTML file, ensuring the application's full functionality.
+
+---
+
+This description provides an overview of the project's features, design, and setup instructions, making it clear and concise for anyone viewing the GitHub repository.
