@@ -1,7 +1,3 @@
-Here is a description for GitHub based on the code and tasks outlined above:
-
----
-
 ## Book Library Web Application
 
 This project is a modern and minimalist Book Library web application built using HTML, CSS, and JavaScript. The application allows users to add, edit, delete, and search for books in a user-friendly interface.
@@ -29,7 +25,3 @@ This project is a modern and minimalist Book Library web application built using
 ### Setup and Usage
 
 To run the project, clone the repository and open the `index.html` file in your browser. The CSS and JavaScript files (`styles.css` and `scripts.js`) are linked in the HTML file, ensuring the application's full functionality.
-
----
-
-This description provides an overview of the project's features, design, and setup instructions, making it clear and concise for anyone viewing the GitHub repository.
